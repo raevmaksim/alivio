@@ -1,0 +1,190 @@
+/* Шрифты 
+  font-family: 'LatoBlack';
+  font-family: 'LatoBold';
+  font-family: 'LatoItalic';
+  font-family: 'LatoRegular';
+  font-family: 'LatoLight';
+  font-family: 'LatoThin';
+  font-family: 'GeorgiaBlack';
+  font-family: 'GeorgiaExtraBold';
+  font-family: 'GeorgiaBold';
+  font-family: 'GeorgiaSemiBold';
+  font-family: 'GeorgiaMedium';
+  font-family: 'GeorgiaRegular';
+  font-family: 'GergiaLight';
+  font-family: 'GeorgiaThin';
+*/
+/* Обнуление */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Переменные с цветами */
+:root {
+  --accent-color: #01996D;
+  --green-color: #245852;
+  --white-color: #fff;
+  --dark-color: #424242;
+}
+/* Стили для текста */
+.text_h1 {
+  font-family: 'GeorgiaBold';
+  font-size: 65px;
+  color: var(--accent-color);
+}
+.text_subtitle {
+  font-family: 'GeorgiaBold';
+  font-size: 50px;
+  color: var(--accent-color);
+}
+.text_h2 {
+  font-family: 'LatoBlack';
+  font-size: 24px;
+  color: var(--dark-color);
+}
+.text_h3 {
+  font-family: 'GeorgiaBold';
+  font-size: 30px;
+  color: #000;
+}
+.text_p {
+  font-family: 'LatoRegular';
+  font-size: 20px;
+  color: var(--dark-color);
+}
+/* Стили для кнопки */
+.accent_btn {
+  width: 227px;
+  height: 65px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-family: 'LatoRegular';
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+}
+/* Контейнер */
+.container {
+  max-width: 1508px;
+  margin: 0 auto;
+}
+/* Header */
+.header {
+}
+.navbar {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  align-items: center;
+
+}
+.logo {
+  width: 79.57px;
+  height: 23.04px;
+  margin-left: 67.97px;
+  margin-right: 173.46px;
+}
+.navbar__ul {
+  width: 557px;
+  padding: 0;
+  margin-right: 283px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar__li {
+}
+.navbar__a {
+  color: #292929;
+  text-decoration: none;
+  font-family: 'LatoRegular';  
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar__btns {
+}
+.navbar__btn {
+  padding: 0;
+  margin: 0;
+  width: 183px;
+  height: 51px;
+}
+.transparent_btn {
+  padding: 0;
+  margin: 0;
+  margin-right: 35px;
+  height: 51px;
+  background-color: #ffffff00;
+  color: #292929;
+  font-family: 'LatoRegular';
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+}
+.first-screen {
+  background-image: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 163px;
+  padding-bottom: 336px;
+}
+.first-screen__blog {
+  margin-left: 71px;
+  max-width: 432px;
+}
+.first-screen__h1 {  
+  line-height: 81px;
+  margin-bottom: 27px;
+}
+.first-screen__p {
+  line-height: 28px;
+  margin-bottom: 53px;
+}
+.first-screen__btn {
+}
+/* Медиа запросы для старых экранов */
+@media screen and (max-width: 1500px) {
+  .logo {
+    margin-right: 0;
+  }
+  .navbar__ul {
+    margin-right: 0;
+  }
+  .navbar {
+    justify-content: space-around;
+  }
+}
+/* Медиа запросы для планшетов */
+@media screen and (max-width: 1280px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+/* Медиа запросы для смартфонов */
+@media screen and (max-width: 620px) {
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .transparent_btn {
+    width: 183px;
+    margin-right: 0;
+  }
+}
+

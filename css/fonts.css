@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'LatoBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: 'LatoBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: 'LatoItalic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: 'LatoRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: 'LatoLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: 'LatoThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Lato-Thin.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Black.ttf)
+}
+@font-face {
+  font-family: 'GeorgiaExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Bold.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Medium.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Regular.ttf);
+}
+@font-face {
+  font-family: 'GergiaLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Light.ttf);
+}
+@font-face {
+  font-family: 'GeorgiaThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/NotoSerifGeorgian-Thin.ttf);
+}
