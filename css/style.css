@@ -15,9 +15,9 @@
   font-family: 'GeorgiaThin';
 */
 /* Обнуление */
- * {
+ /* * {
   outline: solid red 1px;
-} 
+}  */
 html {
   box-sizing: border-box;
 }
@@ -263,10 +263,41 @@ body {
   margin-bottom: 37px;
 }
 .about__card_img {
+}
+/* Projects */
+.project {
+  background-color: var(--green-color);
+  padding-top: 229px;
+  padding-bottom: 176.89px;
+}
+.project__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.project__item {
+  padding-top: 81px;
+}
+.project__title {
+  font-family: 'GeorgiaBold';
+  color: var(--white-color);
+  font-size: 50px;
+  line-height: 157%;
+  max-width: 580px;
+  margin-bottom: 33px;
+}
+.project__subtitle {
+  font-family: 'LatoRegular';
+  font-size: 25px;
+  line-height: 157%;
+  color: var(--white-color);
+  margin-bottom: 57px;
+}
+.project__btn {
+}
+.project__video {
+  border-radius: 16.33px;
+}
 
-}
-.text_h3 {
-}
 
 /* Медиа запросы для старых экранов */
 @media screen and (max-width: 1500px) {
@@ -300,7 +331,26 @@ body {
   }
   .about__card:nth-child(2) {
     padding-top: 0;
+  }
+  .project {
+    background-color: var(--green-color);
+    padding-top: 0px;
+    padding-bottom: 90px;
 }
+  .project__flex {
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+  }
+  .project__item {
+    padding-top: 50px;
+    margin: 0 auto 50px;
+    text-align: center;
+  }
+  .project__title {
+    margin: 0 auto;
+  }
+  
 }
 /* Медиа запросы для планшетов */
 @media screen and (max-width: 1280px) {
