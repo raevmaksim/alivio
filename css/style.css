@@ -264,20 +264,20 @@ body {
 }
 .about__card_img {
 }
-/* Projects */
-.project {
+/* Services */
+.services {
   background-color: var(--green-color);
   padding-top: 229px;
   padding-bottom: 176.89px;
 }
-.project__flex {
+.services__flex {
   display: flex;
   justify-content: space-between;
 }
-.project__item {
+.services__item {
   padding-top: 81px;
 }
-.project__title {
+.services__title {
   font-family: 'GeorgiaBold';
   color: var(--white-color);
   font-size: 50px;
@@ -285,18 +285,115 @@ body {
   max-width: 580px;
   margin-bottom: 33px;
 }
-.project__subtitle {
+.services__subtitle {
   font-family: 'LatoRegular';
   font-size: 25px;
   line-height: 157%;
   color: var(--white-color);
   margin-bottom: 57px;
 }
-.project__btn {
+.services__btn {
 }
-.project__video {
+.services__video {
   border-radius: 16.33px;
 }
+/* Projects */
+.projects {
+  padding-top: 120px;
+  padding-bottom: 242.74px;
+}
+.projects__flex {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.projects__item-left {
+  position: relative;
+}
+.projects__img {
+  margin-left: 50px;  
+  z-index: 1;
+}
+.projects__card {
+  z-index: 2;
+  top: 355px;
+  left: -10px;
+  padding: 22px 58px 12px;
+  position: absolute;
+  background: var(--white-color);
+  border-radius: 4px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.projects__card_title {  
+  font-family: 'LatoRegular';
+  font-size: 14.49px;
+  color: var(--dark-color);
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.projects__card_line {
+  margin: 0 auto;
+  width: 110.49px;
+  height: 1px;
+  background: #000;
+  margin-bottom: 13.7px;
+}
+.projects__card_ava {
+  width: 57.44px;
+  height: 57.44px;
+  background-image: url(../img/ava.jpg);
+  background-repeat: no-repeat;
+  background-size: 169%;
+  background-position: -18px -9px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+}
+.projects__name {
+  font-family: 'LatoRegular';
+  font-size: 11.94px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.projects__card__subtitle {
+  font-family: 'GeorgiaExtraBold';
+  font-size: 15.93px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects__card_ul {
+  padding: 0;
+}
+.projects__card_li {
+  font-family: 'LatoRegular';
+  font-size: 10px; 
+  margin-left: 15px;
+  margin-bottom: 21px;
+}
+.projects__item-right {
+}
+.projects__title {
+  margin-left: 10px;
+  margin-bottom: 24px;
+}
+.projects__subtitle {
+  max-width: 584px;
+  padding-left: 13px;
+  line-height: 157%;
+  margin-bottom: 20px;
+}
+.projects__text {
+  padding-left: 10px;
+  line-height: 141%;
+  max-width: 530px;
+  margin-bottom: 32px;
+}
+.projects__btn {
+  margin-left: 10px;
+}
+.accent_btn {
+}
+
 
 
 /* Медиа запросы для старых экранов */
@@ -332,25 +429,52 @@ body {
   .about__card:nth-child(2) {
     padding-top: 0;
   }
-  .project {
+  .services {
     background-color: var(--green-color);
     padding-top: 0px;
     padding-bottom: 90px;
 }
-  .project__flex {
+  .services__flex {
     padding-left: 25px;
     padding-right: 25px;
     flex-direction: column;
   }
-  .project__item {
+  .services__item {
     padding-top: 50px;
     margin: 0 auto 50px;
     text-align: center;
   }
-  .project__title {
+  .services__title {
     margin: 0 auto;
   }
-  
+  .projects__flex {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .projects__item-right {
+    display: flex;
+    align-items: center;
+  }
+  .projects__item-right div {
+    padding: 50px;
+  }
+  .projects__card {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .projects__item-left {
+    display: flex;
+    align-items: center;
+  }
+  .projects__img  {
+    margin-left: 0;
+    padding: 50px;
+    margin-left: -150px;
+  }
+  .projects__card {
+  }
+
 }
 /* Медиа запросы для планшетов */
 @media screen and (max-width: 1280px) {
@@ -376,6 +500,41 @@ body {
   .about__card-pb2 {
     padding-left: 0;
   }
+  .projects__item-right {
+    flex-direction: column;
+    text-align: center;
+  }
+  .projects__item-right div {
+    padding: 0;
+  }
+  .projects__item-left {
+    flex-direction: column;
+  }
+  .projects__img  {
+    margin-left: 0;
+    padding: 50px;
+    margin-left: 50px;
+  }
+  .projects__card {
+    width: 50%;
+  }
+  .projects__card__subtitle {
+    text-align-last: left;
+  }
+  .projects__card_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .projects__card_title {
+    text-align-last: left;
+  }
+  .projects__card_line {
+    margin: 0 0 30px;
+  }
+  .projects__img {
+    margin-left: 0;
+  }
+
 }
 /* Медиа запросы для смартфонов */
 @media screen and (max-width: 840px) {
@@ -412,6 +571,10 @@ body {
   }
   .logo {
     margin-left: 0;
+  }
+  .projects__flex {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (max-width: 620px) {  
