@@ -452,6 +452,9 @@ body {
   .services__title {
     margin: 0 auto;
   }
+  .projects {
+    padding-bottom: 90px;
+  }
   .projects__flex {
     flex-direction: column-reverse;
     align-items: center;
