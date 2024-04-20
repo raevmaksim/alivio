@@ -86,8 +86,6 @@ body {
   margin: 0 auto;
 }
 /* Header */
-.header {
-}
 .navbar {
   padding-top: 17px;
   padding-bottom: 17px;
@@ -109,16 +107,12 @@ body {
   justify-content: space-between;
   list-style: none;
 }
-.navbar__li {
-}
 .navbar__a {
   color: #292929;
   text-decoration: none;
   font-family: 'LatoRegular';  
   font-size: 20px;
   font-weight: 500;
-}
-.navbar__btns {
 }
 .navbar__btn {
   padding: 0;
@@ -157,8 +151,6 @@ body {
   line-height: 28px;
   margin-bottom: 53px;
 }
-.first-screen__btn {
-}
 /* About */
 .about {
   padding-top: 176px;
@@ -182,8 +174,6 @@ body {
   /* line-height: 77px; */
   line-height: 157%;
   
-}
-.text_subtitle {
 }
 .about__text_item {
   padding-top: 52px;
@@ -228,8 +218,6 @@ body {
 .about__card-pb2 .about__card_number {
   padding-bottom: 27px;
 }
-.about__card-pb3 .about__card_number {
-}
 .about__card_number span {
   font-size: 186px;
 }
@@ -262,8 +250,6 @@ body {
 .about__card-pb3 .about__card_text {
   margin-bottom: 37px;
 }
-.about__card_img {
-}
 /* Services */
 .services {
   background-color: var(--green-color);
@@ -291,8 +277,6 @@ body {
   line-height: 157%;
   color: var(--white-color);
   margin-bottom: 57px;
-}
-.services__btn {
 }
 .services__video {
   border-radius: 16.33px;
@@ -370,8 +354,6 @@ body {
   margin-left: 15px;
   margin-bottom: 21px;
 }
-.projects__item-right {
-}
 .projects__title {
   margin-left: 10px;
   margin-bottom: 24px;
@@ -391,9 +373,32 @@ body {
 .projects__btn {
   margin-left: 10px;
 }
-.accent_btn {
+/* Footer */
+.footer {
+  background-color: var(--green-color);
+  padding-top: 100px;
+  padding-bottom: 144px;
 }
-
+.footer__logo {
+  width: 108px;
+  margin-bottom: 76px;
+}
+.footer__navbar {
+  color: var(--white-color);
+  padding: 0;
+}
+.footer__navbar_item {
+  list-style: none;
+  font-family: 'LatoRegular';
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.footer__navbar_item:last-child {
+  margin-bottom: 0;
+}
+.footer__pl {
+  padding-left: 68px;
+}
 
 
 /* Медиа запросы для старых экранов */
@@ -472,9 +477,6 @@ body {
     padding: 50px;
     margin-left: -150px;
   }
-  .projects__card {
-  }
-
 }
 /* Медиа запросы для планшетов */
 @media screen and (max-width: 1280px) {
@@ -534,7 +536,6 @@ body {
   .projects__img {
     margin-left: 0;
   }
-
 }
 /* Медиа запросы для смартфонов */
 @media screen and (max-width: 840px) {
